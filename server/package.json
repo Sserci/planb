@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "createdb": "npx sequelize db:create"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "faker": "^5.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-simple": "^0.5.6",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.0",
+    "nodemailer": "^6.6.4",
+    "nodemon": "^2.0.12",
+    "save": "^2.4.0",
+    "sequelize": "^6.6.5",
+    "sequelize-mig": "^3.1.3",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6",
+    "uuidv4": "^6.2.12"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
